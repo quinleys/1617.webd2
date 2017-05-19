@@ -1,0 +1,460 @@
+* {padding: 0;
+margin: 0;}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    background-color: #F2F2F2;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    list-style-type: none;
+}
+header {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    border-bottom: 1px solid #EEE;
+}
+#brand  {
+    margin-left: 20px;
+    float: left;
+    line-height: 50px;
+    color: black;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: border;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+
+}
+nav a {
+    display: block;
+    padding: 15px 0;
+    border-bottom: 1px solid #EEE;
+}
+nav a:hover {
+    background: #4D4D4D;
+    color: #C5AD74;
+}
+
+nav li: :last-child a {
+    border-bottom:none;
+}
+
+.menu {
+
+    width: 240px;
+    height: 100%;
+    position: absolute;
+    background-color: #F2F2F2;
+    left: -240px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.menu-icon  {
+    padding: 10px 20px;
+    background: #F2F2F2;
+    color: black;
+    cursor: pointer;
+    float: right;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+
+#menuToggle {
+    display: none;
+}
+
+#menuToggle:checked ~ .menu{ 
+    position: absolute;
+    left: 0;
+}
+
+
+.sect {
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-overflow: ellipsis;
+    
+}
+
+.subSection {
+    height: 50%;
+    background-color: #F2F2F2;
+    text-overflow: ellipsis;
+}
+.subSection2 {
+    height: 100%;
+    background-color: #F2F2F2;
+    text-overflow: ellipsis;
+}
+.subSection3 {
+    height: 70%;
+    background-color: #F2F2F2;
+    text-overflow: ellipsis;
+}
+.subSection4 {
+    height: 100%;
+    background-color: #F2F2F2;
+    text-overflow: ellipsis; 
+    padding-top: 10px;
+}
+.subSection5{
+    height: 140%;
+    background-color: #F2F2F2;
+    text-overflow: ellipsis;
+    padding-top: 5%;
+}
+.subSection6{
+    height: 120%;
+    background-color: #F2F2F2;
+    text-overflow: ellipsis;
+    padding-top: 5px;
+
+}
+.subSection7{
+    height: 85%;
+    background-color: #F2F2F2;
+    text-overflow: ellipsis;
+    padding-top: 20px;
+
+}
+.sectOne{
+    background-image: url("img/tower.jpg");
+
+}
+.sectTwo{
+    background-image: url("img/ijsbeer.jpg");
+}
+.sectThree{
+    background-image: url("img/toren.jpg");
+}
+.aboutUs{
+    background-image: url("img/duinen.jpg");
+    height: 80%;
+}
+.team{
+    background-image: url("img/bridge.jpg");
+    height: 80%;
+}
+.sectFour{
+    background-image: url("img/services.jpeg");
+    height: 80%;
+}
+.videography{
+    background-image: url("img/plane.jpeg");
+    height: 80%;
+}
+.webdesign {
+    background-image: url("img/bridge2.jpeg");
+    height: 80%;
+}
+.photography {
+    background-image: url("img/kanye.jpg");
+    height: 80%;
+}
+
+.sectPortfolio{
+    background-image: url("img/city.jpg");
+    height: 80%;
+}
+.sectContact {
+    background-image: url("img/contact.jpeg");
+    height: 80%;
+}
+#container {
+    height: 700px;
+    width: 1000px;
+    margin: 0 auto;
+}
+ #hoofdtitel{
+     text-align: center;
+     clear: both;
+     padding-top: 15%;
+     font-size: 200px;
+ }
+  h3{
+     text-align: center;
+     clear: both;
+     font-size: 50px;
+
+ }
+h2 {
+    font-size: 40px;
+    clear: both; 
+}
+.onderondertitel {
+    text-align: center;
+    clear: both;
+    font-size: 50px;
+    padding-top: 50px;
+}
+.aboutTitel {
+    text-align: center;
+    clear: both;
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+.aboutTekst{
+    text-align: left;
+    width: 45%;
+    margin: 2%;
+    float: left;
+}
+ .titel1{
+     padding-top: 5%;
+     text-align: center;
+     clear: both;
+     font-size: 150px;
+ }
+  .titel2{
+     padding-top: 10%;
+     text-align: center;
+     clear: both;
+     font-size: 80px;
+ }
+ .titel3{
+     padding-top: 50px;;
+     text-align: center;
+     clear: both;
+     font-size: 80px;
+ }
+ .breedte{
+     width: 80%;
+     height: 70%;
+     margin:  auto;
+ }
+
+.ondertitel {
+    text-align: center;
+    clear:  both;
+    font-size: 40px;
+}
+.tekst {
+    margin: auto;
+    clear: both;
+    font-size: 30px;
+    padding-bottom: 50px;
+    
+    text-align: center;
+}
+.portfolio{
+    height: 80%;
+}
+.port {
+    padding-top: 5%;
+}
+
+.footer{
+    height: 200px;
+    background-color: #F2F2F2;
+    text-align: center;
+    border: 0px solid #4D4D4D;
+    padding-top: 10px;
+}
+
+.btn {
+    
+    margin: 0 auto;
+    -webkit-transition: all .5s;
+    width: 200px;
+    background-color: #4D4D4D;
+    color: white;
+    position: relative;
+    max-height: 60px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, .5),
+    1px 1px 5px rgba(0, 0, 0, .3);
+}
+
+.btn:hover{
+    background-color: white;
+    color: #4D4D4D;
+}
+.btn2{
+    margin-top: 550px;
+}
+.btn3{
+    margin-top: 400px;
+}
+.btn4{
+    margin-top: 400px;
+}
+.btn5{
+    float:left;
+    margin-left: 100px;
+    margin-top: 60px;
+
+}
+.persoon {
+    padding-top: 10px;
+    width: 30%;
+    float: left;
+    margin: 22px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.services {
+    padding-top: 30px;
+    width: 30%;
+    float: left;
+    margin: 22px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.foto{
+    padding-top: 10px;
+    width: 30%;
+    float: left;
+    margin: 22px;
+    text-align: center;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.foto1{
+    
+    float: left;
+    width: 20%;
+    background-color: red;
+    margin: 20px;
+    height: 400px;
+    align-items: center;
+    border: 1px solid #4D4D4D;
+}
+
+.effect {
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    overflow: hidden;
+
+}
+
+.effect:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+    filter: brightness(0.5);
+}
+.row1{
+    width: 100%;
+    height: 300px;
+    background-color:#F2F2F2;
+    margin-top: 40px;
+    
+}
+.teamcolum{
+    float: left;
+    width: 60%;
+    text-align: center;
+
+}
+.teamcolum1{
+    float: right;
+    width: 60%;
+    clear: none;
+    text-align: center;
+
+}
+.team1{
+    width: 500px;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    clear: left;
+
+}
+#teamtekst{
+    display: inline;
+}
+.teamlid {
+    float: right;
+    margin: 0;
+    padding: 0;
+    clear: none;
+    width: 300px;
+}
+.teamlid1{
+    float: left;
+    clear: none;
+}
+
+.box1 {
+    width: 43%;
+    margin: 40px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+.teamtitel{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    margin: 20px;
+}
+
+.rij1{
+    width: 100%;
+    background-color: red;
+}
+
+.map {
+    margin: 20px;
+    float: right;
+}
+.contactBreedte {
+    width: 40%;
+    float: left;
+    margin: 20px;
+}
+.form {
+    clear: both;
+    padding: 20px;
+}
+input {
+    display: block;
+    width: 20%;
+    height: 20px;
+    margin: 10px;
+    border: 1px solid #4D4D4D;
+}
+fieldset {
+    padding: 20px;
+}
+#forum{
+    text-align: center;
+}
+
+.footerlist li {
+    display: inline;
+    margin: 30px;
+   
+}
+
+.footer img {
+    margin: 20px;
+}
+.copy {
+    margin: 20px;
+}
+.foottekst {
+    margin: 20px;
+}
