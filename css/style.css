@@ -249,120 +249,6 @@ nav a:hover {
 }
 
 
-.sect {
-    height: 100%;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    top:50%;
-    left: 50%;
-    
-}
-.sect2 {
-    height: 70%;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    top:50%;
-    left: 50%;
-    
-}
-.sect3 {
-    height: 80%;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    top:50%;
-    left: 50%;
-}
-
-
-
-.subSection2 {
-    height: 75%;
-
-}
-.subSection3 {
-    height: 70%;
-
-}
-.subSection4 {
-    height: 60%;
-    padding-top: 40px;
-
-}
-.subSection5{
-    height: 150%;
-
-    padding-top: 5%;
-    padding-bottom: 5%;
-
-}
-.subSection6{
-    height: 120%;
-
-    padding-top: 5px;
-
-}
-.subSection7{
-    height: 85%;
-
-    padding-top: 20px;
-
-}
-
-.subSection8{
-    height: 80%
-}
-.sectOne{
-    background-image: url("../img/tower.jpg");
-
-}
-.sectTwo{
-    background-image: url("../img/ijsbeer1.jpg");
-}
-.sectThree{
-    background-image: url("../img/toren.jpg");
-}
-.aboutUs{
-    background-image: url("../img/duinen1.jpg");
-    height: 80%;
-}
-.team{
-    background-image: url("../img/bridge.jpg");
-    height: 80%;
-}
-.sectFour{
-    background-image: url("../img/services1.jpg");
-    height: 80%;
-}
-.videography{
-    background-image: url("../img/plane1.jpg");
-    height: 80%;
-}
-.webdesign {
-    background-image: url("../img/bridge2.jpg");
-    height: 80%;
-}
-.photography {
-    background-image: url("../img/kanye1.jpg");
-    height: 80%;
-}
-
-.sectPortfolio{
-    background-image: url("../img/city1.jpg");
-    height: 80%;
-}
-.sectContact {
-    background-image: url("../img/contact1.jpg");
-    height: 80%;
-}
 #container {
     height: 700px;
     width: 1000px;
@@ -440,16 +326,7 @@ h2 {
      clear: both;
      font-size: 80px;
  }
- .breedte{
-     width: 80%;
-     height: 70%;
-     margin:  auto;
- }
- .breedte2{
-     width: 80%;
-     height: 80%;
-     margin:  auto;
- }
+
 .ondertitel {
     text-align: center;
     clear:  both;
@@ -661,12 +538,7 @@ h2 {
     clear: none;
     margin: 20px;
 }
-.contactBreedte {
-    width: 450px;;
-    float: left;
-    margin: 20px;
-    overflow: hidden;
-}
+
 .contact{
 
     float: left;
